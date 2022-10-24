@@ -99,54 +99,7 @@ navbar-default .navbar-nav > .active > a,
   transform: translate(-50%, -50%);
 }
 
-#newProduct .newProduct-head1{
-  position: relative;
-  right: 25%;
-}
-#newProduct .newProduct-head1 .newProduct-sub1{
-  position: relative;
-  left: 6px;
-}
-#newProduct .newProduct-head2{
-  position: relative;
-  right: 23%;
-}
-#newProduct .newProduct-head2 .newProduct-sub2{
-  position: relative;
-  right: 35px;
-}
-#newProduct .newProduct-head3{
-  position: relative;
-  right: 20%;
-}
-#newProduct .newProduct-head3 .newProduct-sub3{
-  position: relative;
-  right: 15px;
-}
-#newProduct .newProduct-head4{
-  position: relative;
-  right: 5%;
-}
-#newProduct .newProduct-head4 .newProduct-sub4{
-  position: relative;
-  right: 128px;
-}
-#newProduct .newProduct-head5{
-  position: relative;
-  right: 18%;
-}
-#newProduct .newProduct-head5 .newProduct-sub5{
-  position: relative;
-  right: 25px;
-}
-#newProduct .newProduct-head6{
-  position: relative;
-  right: 10%;
-}
-#newProduct .newProduct-head6 .newProduct-sub6{
-  position: relative;
-  right: 55px;
-}
+
 #newProduct strong{
   color: red;
 }
@@ -178,13 +131,9 @@ navbar-default .navbar-nav > .active > a,
   height: 100%;
   left: 0;
   margin: 0 auto;
-  box-shadow: 0px 0px 49px 0 rgb(0 0 0 / 13%);
+  box-shadow: 29px 16px 8px 0 rgb(65 71 50 / 38%);
 }
 #brandsection .videobox-text{
-  position: absolute;
-  width: 38%;
-  height: 100%;
-  right: 0;
   background-color: white;
   padding: 70px 0 10px;
 }
@@ -200,4 +149,17 @@ navbar-default .navbar-nav > .active > a,
 }
 #brandsection .container{
   height: 447px;
+}
+
+#youtubeContnet{
+  height: 0;
+  padding-top: 56%;
+  position: relative;
+}
+#youtubeContnet iframe{
+  position: absolute;
+  left:0;width: 100%; top:0; height: 100%;
+}
+.ma{
+  margin: 0 auto;
 }
